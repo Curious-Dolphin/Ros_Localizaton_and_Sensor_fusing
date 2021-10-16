@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="project" name="subscriber" type="subscriber"/>
+<node pkg="rqt_reconfigure" name="rqt" type="rqt_reconfigure"/>
+
+
+</launch>
