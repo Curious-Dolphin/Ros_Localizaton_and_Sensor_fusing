@@ -1,4 +1,3 @@
-929000 Filippo Chiechio
 There are three important subfolders inside the main folder: the src folder which contains all the cpp files, the msg folder that contains the two custom messages definitions used for receiving and sending messages, the last folder is the one containing the parameter definition.
 The paramter used to change the published odometry is called "select" and there are three others parameters to controle the initial position and angle of the robot, in order to reset the odometry to a specified point there is a bool parameter that acts as a reset button.
 The structure of the custom message used to pubblish is just a "nav_msgs/Odometry" with a string pararameter "type" added to the message definition in order to know which odometry is being published with the topic "new_odom".
